@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "Somewhere above the roof, the stars are still turning, slow as dust in lamplight. The night does not ask anything of you. It only keeps its distance, dark and wide, and lets you be one small warm light inside it, for a while.";
+  "The old cart rolls home along the field road after dark, slow as the stars above the roof. The hay sighs under the moon, the wheels find their ruts, and the whole wide night keeps its distance, dark and patient, while one small warm light rides along inside it, for a while.";
 
 const codePoints = [...ENTRY].length;
 if (codePoints < 1 || codePoints > 280) {
